@@ -59,6 +59,22 @@ class _GallaryPageState extends State<GallaryPage> {
           ],
         ),
       ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(
+            label: "Home",
+            icon: Icon(Icons.home)
+          ),
+          BottomNavigationBarItem(
+            label: "Search",
+            icon: Icon(Icons.search)
+          ),
+          BottomNavigationBarItem(
+            label: "About",
+            icon: Icon(Icons.info)
+          ),
+        ]
+      ),
     );
   }
 }
