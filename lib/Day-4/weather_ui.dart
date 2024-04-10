@@ -11,7 +11,7 @@ class WeatherUiPage extends StatelessWidget {
         style: TextStyle(
           fontSize: 24,
           fontWeight: FontWeight.bold,
-          fontFamily: 'Poppins',
+          
           color: Colors.white,
         ),
        ),
@@ -51,7 +51,6 @@ class WeatherUiPage extends StatelessWidget {
                     children: [
                       Text('12 C',
                       style: TextStyle(
-                        fontFamily: 'Poppins',
                         fontWeight: FontWeight.w800,
                         fontSize: 20
                        ),
@@ -60,8 +59,7 @@ class WeatherUiPage extends StatelessWidget {
                         height: 12,
                       ),
                       Text('CLOUDY DAY',
-                      style: TextStyle(
-                        fontFamily: 'Poppins',
+                      style: TextStyle(                      
                         fontWeight: FontWeight.w400,
                         fontSize: 18
                        ),
@@ -97,7 +95,7 @@ class WeatherUiPage extends StatelessWidget {
                       children: [
                         Text('ALARM',
                         style: TextStyle(
-                          fontFamily: 'Poppins',
+                          
                           fontWeight: FontWeight.w300,
                           fontSize: 12
                          ),
@@ -109,7 +107,7 @@ class WeatherUiPage extends StatelessWidget {
                           children: [
                             Text('11:45',
                             style: TextStyle(
-                              fontFamily: 'Poppins',
+                              
                               fontWeight: FontWeight.w500,
                               fontSize: 20
                              ),
@@ -170,7 +168,7 @@ class WeatherUiPage extends StatelessWidget {
                     children: [
                       Text('22',
                       style: TextStyle(
-                        fontFamily: 'Poppins',
+                        
                         fontWeight: FontWeight.w500,
                         fontSize: 40
                        ),
@@ -178,14 +176,13 @@ class WeatherUiPage extends StatelessWidget {
                       Text('●  ●'),
                        Text('56',
                       style: TextStyle(
-                        fontFamily: 'Poppins',
+                        
                         fontWeight: FontWeight.w500,
                         fontSize: 40
                        ),
                       ),
                       Text('MON,2 MAY,2022',
                       style: TextStyle(
-                        fontFamily: 'Poppins',
                         fontWeight: FontWeight.w400,
                         fontSize: 15
                        ),
