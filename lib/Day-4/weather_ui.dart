@@ -10,8 +10,7 @@ class WeatherUiPage extends StatelessWidget {
         title: Text('Weather Widget',
         style: TextStyle(
           fontSize: 24,
-          fontWeight: FontWeight.bold,
-          
+          fontWeight: FontWeight.bold,    
           color: Colors.white,
         ),
        ),
@@ -123,12 +122,13 @@ class WeatherUiPage extends StatelessWidget {
                           ],
                         ),
                         SizedBox(
-                          height: 5,
+                          height: 4,
                         ),
                         Text('M  T  W  T  F  S  S',
                         style: TextStyle(
                           fontSize: 16
-                        ),)
+                        ),
+                       ),
                       ],
                     ),
                  ),
@@ -154,8 +154,8 @@ class WeatherUiPage extends StatelessWidget {
                        blurRadius: 10,
                        color: Color.fromARGB(255, 224, 220, 220), 
                        spreadRadius: 5,
-                    )
-                  ]
+                    ),
+                  ],
                 ),
                 child: Padding(
                   padding: const EdgeInsets.symmetric(
@@ -168,7 +168,6 @@ class WeatherUiPage extends StatelessWidget {
                     children: [
                       Text('22',
                       style: TextStyle(
-                        
                         fontWeight: FontWeight.w500,
                         fontSize: 40
                        ),
@@ -176,7 +175,6 @@ class WeatherUiPage extends StatelessWidget {
                       Text('●  ●'),
                        Text('56',
                       style: TextStyle(
-                        
                         fontWeight: FontWeight.w500,
                         fontSize: 40
                        ),
