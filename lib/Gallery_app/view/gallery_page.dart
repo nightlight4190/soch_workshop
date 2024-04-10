@@ -70,8 +70,8 @@ class _GallaryPageState extends State<GallaryPage> {
             icon: Icon(Icons.search)
           ),
           BottomNavigationBarItem(
-            label: "About",
-            icon: Icon(Icons.info)
+            label: "Downloads",
+            icon: Icon(Icons.download)
           ),
         ]
       ),
